@@ -1,0 +1,151 @@
+/* --------- Global Styling --------- */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Geneva, monospace, sans-serif;
+  color: #f2f2f2;
+}
+
+/* --- Rows and Columns --- */
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 20px;
+
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* --- Header --- */
+
+header {
+  background-color: #708090;
+}
+
+.topNav {
+  font-size: 125%;
+  text-align: right;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 450%;
+  text-align: center;
+  padding: 15px 15px 30px 15px;
+}
+
+
+/* --- Links --- */
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  padding: 8px 10px 8px 10px;
+   color: #f2f2f2; 
+}
+
+a:hover {
+  background-color: #f2f2f2;
+  color: #708090;
+}
+
+/* --- Lists --- */
+
+li {
+  padding: 10px;
+}
+
+ol {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+
+/* --- Body Stuff --- */
+
+body {
+  background-color: #ddd9d9;
+}
+
+/* --------- Headings --------- */
+h2, h3 {
+  text-align: center;
+  font-size: 225%;
+  padding: 50px;
+  margin: 15px;
+  text-decoration-line: underline;
+  text-underline-position: under;
+}
+
+.introHeading {
+  background-color: #e23838;
+}
+
+.aboutHeading {
+  background-color: #5EBD3E;
+}
+
+.contactHeading {
+  background-color: #973999;
+}
+
+/* --------- Paragraphs --------- */
+
+p {
+  text-align: center; 
+}
+
+.introParagraph {
+  background-color: #009cdf;
+  padding: 50px;
+  margin: 15px;
+}
+
+.aboutParagraph {
+  background-color:#FFB900;
+  padding: 50px;
+  margin: 15px;
+}
+
+.contactLinks {
+  background-color: #F78200;
+  padding: 50px;
+  margin: 15px;
+} /* Includes Anchor Links */
+
+/* --------- Images --------- */
+
+.introImage {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+/* --------- Footer --------- */
+footer {
+  background-color:#708090;
+  padding: 15px;
+}
+
+/* --------- Horizontal Lines --------- */
+
+hr {
+  margin: 15px 25px 0px 25px;
+  height: 5px;
+  background-color: #708090;
+  border: none;
+}
