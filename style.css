@@ -135,12 +135,6 @@ p {
   padding: 15px;
 }
 
-/* --------- Footer --------- */
-footer {
-  background-color:#708090;
-  padding: 15px;
-}
-
 /* --------- Horizontal Lines --------- */
 
 hr {
@@ -148,4 +142,10 @@ hr {
   height: 5px;
   background-color: #708090;
   border: none;
+}
+
+/* --------- Footer --------- */
+footer {
+  background-color:#708090;
+  padding: 15px;
 }
